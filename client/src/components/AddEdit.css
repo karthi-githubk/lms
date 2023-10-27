@@ -1,0 +1,51 @@
+input[type ="text"],
+input[type ="email"],
+input[type = "number"],
+select{
+    width :100%;
+    padding :12px 20px;
+    margin :8px 0;
+    display :inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type ="submit"]{
+    width:100%;
+    background-color: #0081fa;
+    color:white;
+    padding:14px 20px;
+    margin:8px 0 ;
+    border:none ;
+    border-radius:4px ;
+    cursor: pointer;    
+}
+input[type ="button"]{
+    width:100%;
+    color:white;
+    background-color: rgb(6, 207, 67);
+    padding:14px 20px;
+    margin:8px 0 ;
+    border:none ;
+    border-radius:4px ;
+    cursor: pointer;    
+}
+
+input[type ="submit"]:hover{
+    background-color: #18df7b;
+}
+
+/* AddEdit.css */
+.error-input {
+    border: 1px solid red; /* Add a red border to the input */
+    color: red; /* Change the text color to red */
+  }
+  
+  .error {
+    color: red; /* Set the error message text color to red */
+  }
+
+  .error-message {
+    color: red;
+  }
+  
+  

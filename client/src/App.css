@@ -1,0 +1,150 @@
+
+#nav-link{
+    height: 60px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #e84393;
+}
+.nav-link{
+    margin-left: 50px;
+    color: white !important;
+}
+
+.nav-link:hover{
+background-color: #e84393;
+}
+
+.app-bar{
+    background-image: linear-gradient(to right,#e84393,#a29bfe);
+    height: 60px;
+
+}
+.elearn{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.txt{
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    background-image: linear-gradient( to right,#6c5ce7,#e84393);
+    font-weight: bold;
+}
+
+.navcon{
+    border: 2px solid #FFF200;
+    background-color: #FFF200;
+  }
+  .registerbtn{
+    display: flex;
+    right: 0;
+  }
+  .Loginicon{
+    border: 1px solid #e84393 ;
+    padding: 5px;
+    margin-left: 3px;
+    background-color: #00b894;
+  }
+  .modelbox{
+    margin-left: 400px;
+    margin-top: 350px;
+  }
+  .css-1k3x6m5{
+    width: 500px;
+    height: 70vh;
+  }
+  .logintab{
+    margin-top: 300px;
+  }
+  .css-1lb6n3v{
+  margin-top: -200px;
+  }
+  .home{
+    width: 100%;
+  }
+  .home img{
+    width: 80%;
+    margin-left: 3%;
+    height: 500px;
+  }
+
+  .follows a{
+    color:white;
+    margin-right: 10px;
+    font-size: 30px;
+  }
+  .links a{
+    text-decoration: none;
+    color: white;
+  }
+  .links a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+  .footer{
+    margin-top: 50px;
+    position: relative;
+    background:#2f3640;
+  }
+  .logout_button{
+    text-decoration: none;
+    color: white;
+}
+
+.mern{
+  margin-left: 20%;
+  margin-top: 8%;
+}
+.mern span{
+  color: #3498db;
+}
+.mern img{
+  width: 60%;
+  height: 300px;
+  margin-left: 14%;
+  margin-top: 2%;
+}
+.course-tab{
+  margin-left: 20%;
+  margin-top: 7%;
+}
+
+/* Breadcrumb Container */
+.breadcrumb {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  margin: 0 8px;
+}
+
+.breadcrumb-item {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.breadcrumbs{
+  position: fixed;
+  margin-top: 7%;
+  margin-left: 20%;
+}
+
+/* Set a high z-index for SweetAlert dialogs */
+.swal2-container {
+  z-index: 10000; /* You can adjust the value as needed */
+}
